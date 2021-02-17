@@ -1,10 +1,11 @@
 package Exception;
 import java.util.*;
 
+// attempted to convert a string to one of the numeric types, but that the string does not have the appropriate format
+
 public class NumberFormatExceptions {
 	private Scanner sc;
-	int one;
-	int two;
+	String one;
 	int result;
 	
 	public NumberFormatExceptions() {
@@ -13,16 +14,17 @@ public class NumberFormatExceptions {
 	
 	public void accept() {
 		System.out.println("Enter number");
-		one = sc.nextInt();
-		System.out.println("Enter number");
-		two = sc.nextInt();
+		one = sc.next();
+		//System.out.println("Enter number");
+		//two = sc.next();
+		
 				
 	}
 	
 	public void result() {
 		try 
 		{
-			result = one + two;
+			result = Integer.parseInt(one);
 			System.out.println(result);
 		} catch(NumberFormatException ex)
 		{
@@ -31,7 +33,7 @@ public class NumberFormatExceptions {
 				
 	}
 	
-	public static void main(String[] args) {	
+	public static void main(String args[]) {	
 		NumberFormatExceptions nm = new NumberFormatExceptions();		
 		nm.accept();
 		nm.result();
