@@ -22,7 +22,8 @@ public class ClassMain {
 		if(withdraw > firsAmount) {
 			throw new AmountException();
 		} else {
-			System.out.println("withdraw value " + withdraw);
+			firsAmount = firsAmount - withdraw;
+			System.out.println("withdraw value " + firsAmount);
 		}
 	}
 	

@@ -3,7 +3,7 @@ package SingleTon;
 public class SingleTonDemo {
 	private static SingleTonDemo sobj;
 	
-	// make constructor private call singleton by not access by other class
+	// make constructor private call singleton prevent not access by other class
 	private SingleTonDemo()
 	{
 		

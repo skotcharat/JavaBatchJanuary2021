@@ -1,18 +1,5 @@
 package AbstractVehicle;
-// example
-//class X implements Runnable { 
-//    public static void main(String args[]) 
-//    {
-//        /* Missing code? */
-//    } 
-//    public void run() {} 
-//}
-// suitable to start a thread
-//
-// X run = new X();  //Creates objects that implements run() as per Runnable interface
-//Thread t = new Thread(run);  //  
-Creates thread
-//t.start();	
+
 
 
 public class Tester {
