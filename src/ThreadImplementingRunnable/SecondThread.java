@@ -19,7 +19,7 @@ public class SecondThread implements Runnable{
 	{
 		FirstThread f1=new FirstThread();
 		SecondThread s=new SecondThread();
-		Thread t1=new Thread(f1);//to crate object object pass object o
+		Thread t1=new Thread(f1);//to crate object object pass object 
 		//of class which is implementing Runnable
 		
 		Thread t2=new Thread(s);

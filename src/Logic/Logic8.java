@@ -13,6 +13,8 @@ public class Logic8 {
 	public static void main(String[] args) {
 		System.out.println(reverse("ying"));
 		
+		
+		
 	}
 	
 	public static String reverse(String s) {
